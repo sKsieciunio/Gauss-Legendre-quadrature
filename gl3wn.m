@@ -1,12 +1,13 @@
-function [w,x] = gl3wx()
+function [w,x] = gl3wn()
 % Zadanie 35
 % Hubert Błonowski, 333181
 %
+% [G]auss [Legendre] [3]point [w]eights and [n]odes
 % Funkcja zwraca współczynniki oraz węzły dla 3-punktowej kwadratury 
 % Gaussa-Legendre'a na przedziale [-1, 1] 
 % WYJŚCIE
 %   w - współczynniki
-%   
+%   x - węzły
 
 w = [
   5.5555555555555555556e-01;

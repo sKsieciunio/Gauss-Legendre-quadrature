@@ -1,0 +1,13 @@
+1. [] poprawnie działający, realizujący metodę z zadania program obliczeniowy: = 4p;
+2. [] użycie numerycznie niewłaściwego algorytmu dla danego problemu: −= 6p;
+3. [] czytelna specyfikacja programu zgodna z podanymi wytycznymi: += 2p;
+4. [] zestaw rozsądnych, zgodnych z wymogami testów poprawności: += 2p;
+5. [] pełny zestaw zgodnych z wymogami testów poprawności: += 2p;
+6. [] nieestetyczny, i bez odpowiednich komentarzy, kod jakiejś funkcji: −= 2p;
+7. [] bardzo estetyczny i bardzo dobrze skomentowany kod wszystkich funkcji: += 2p;
+8. [] merytorycznie poprawna i czytelna prezentacja: += 3p;
+9. [] rozsądne eksperymenty numeryczne (opisane w prezentacji): += 2p;
+10. [] ciekawe eksperymenty numeryczne (opisane w prezentacji): += 2p;
+11. [] bardzo estetyczna prezentacja (subiektywna ocena prowadzącego): += 3p;
+12. [] poprawne nazwy wszystkich plików: += 2p;
+13. [] interesujące (dla prowadzącego) wyjście poza ramy zadania: += 2p.
