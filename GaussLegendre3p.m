@@ -15,8 +15,8 @@ function res = GaussLegendre3p(func, x1, y1, x2, y2)
 [w,x] = gl3wn;
 
 % zmiana przedziału całkowania z [-1, 1] x [-1, 1] na [x1, x2] x [y1, y2]
-nodes_x = arrayfun(@(x) (x * (x2 - x1) / 2) + (x2 + x1) / 2, x);
-nodes_y = arrayfun(@(x) (x * (y2 - y1) / 2) + (y2 + y1) / 2, x);
+nodes_x = ((x + 1) * (x2 - x1) / 2) + x1;
+nodes_y = ((x + 1) * (y2 - y1) / 2) + y1;
 
 % macierz współczynników weightsMatrix[i][j] = w[i] * w[j]
 weightsMatrix = w*w';
