@@ -1,4 +1,4 @@
-function res = CalculateIntegral35(func, n1, n2)
+function res = P1Z35_HBL_integral(func, n1, n2)
 % Zadanie 35
 % Hubert Błonowski, 333181
 %
