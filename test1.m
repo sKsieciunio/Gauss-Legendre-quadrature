@@ -15,7 +15,7 @@ testunit(@(x,y) sin(x.^2 .* abs(y)), n1Vec, n2Vec, "1/15 = 0.06(6)");
 input("Wciśnij Enter, aby kontynuować testy...\n");
 
 testunit(@(x,y) abs(x) + abs(y), n1Vec, n2Vec, "4/3 = 1.3(3)");
-testunit(@(x,y) exp(x+y), n1Vec, n2Vec, ...
+testunit(@(x,y) -exp(x+y), n1Vec, n2Vec, ...
     "exp(1) - exp(-1) = 2.350402387287...");
 testunit(@(x,y) sin(x)*cos(y), n1Vec, n2Vec, "0.0");
 
